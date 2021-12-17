@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<title>Severless Computing!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url("110.jpg")}
+.bgimg2 {background-image: url("large.jpg")}
+</style>
+<link rel="icon" href="new.png">
+<body>
+
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">About Serverless Computing </h1>
+    <h2>New and improved emerging technology<h2>
+  </div>
+</header>
+
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-light-green w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+    <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
+    <a href="#us" style="width:25%" class="w3-bar-item w3-button">About Serverless Computing</a>
+    <a href="#wedding" style="width:25%" class="w3-bar-item w3-button">Some Main Things</a>
+    <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">Vote</a>
+  </div>
+</div>
+
+<!-- About / Jane And John -->
+<div class="w3-container w3-padding-64 w3-light-blue w3-grayscale-min" id="us">
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-black"><b>Serverless Computing </b></h1>
+    <img class="w3-round w3-grayscale-min" src="download.jpg" style="width:100%;margin:32px 0">
+    <p><i>Severless computing is a design where code execution is fully managged by what soem people know as a cloud provider. A cloud provider is a third party company that helps store informtaion (data) for some people.If you think about it, a person who lives on their own and owns their own house, they would pay for electricity, gas, and maybe even wifi but, with cloud providers companies will go and buy these that way their information can get in right hands. </i>
+    </p><br>
+    <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">More Details</a></p>
+  </div>
+</div>
+
+<!-- Background photo -->
+<div class="w3-display-container bgimg2">
+  <div class="w3-display-middle w3-text-Black w3-center">
+    <h1 class="w3-jumbo"> Isn't it cool!</h1><br>
+     <a href="https://www.ibm.com/cloud/learn/serverless"_blank"> Go to this awesome website to get a good background of serverless computing!</a>
+  </div>
+</div>
+
+<!-- Wedding information -->
+<div class="w3-container w3-padding-64 w3-light-blue w3-grayscale-min w3-center" id="wedding">
+  <div class="w3-content">
+    <h1 class="w3-text-black"><b>Main Pieces</b></h1>
+    <img class="w3-round-large w3-grayscale-min" src="yd.jpg" style="width:100%;margin:64px 0">
+    <div class="w3-row">
+      <div class="w3-half">
+        <h2>Components</h2>
+        <p>API Gateway</p>
+        <p>Function as a service (FaaS)</p>
+		<p>Backend as a Service (BaaS)</p>
+      </div>
+      <div class="w3-half">
+        <h2>Advantages</h2>
+        <p>Productivity Boost</p>
+        <p>Cost-Effective</p>
+		<p> Simplified Operations</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- RSVP section -->
+<div class="w3-container w3-padding-64 w3-black w3-grayscale-min w3-center w3-wide" id="rsvp">
+ <h1 class="w3-text-white"><b>Vote if you like or are interesting in serverless computing!</b></h1>
+  <p class="w3-large w3-text-white">Please Vote By December 17, 2021</p>
+  <p class="w3-xlarge">
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">VOTE!</button>
+  </p>
+</div>
+
+<!-- RSVP modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+    <div class="w3-container w3-white w3-center">
+      <h1 class="w3-wide ">Does Serverless Computing interest you?</h1>
+      <p>We hope it does and encurage you to learn more!</p>
+      <form>
+        <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
+      </form>
+      <p><i>Sincerely me, Sophia Berbena </i></p>
+      <div class="w3-row">
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Yes, it does!</button>
+        </div>
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">No, it does not.</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Go to page 3, to get more infermation!<a href="finals%20temp3.html" title="W3.CSS" target="_blank" class="w3-hover-text-green">Page 3</a></p>
+  <p>Or go back to your home page.<a href="Finals%20Temp1.html" title="W3.CSS" target="_blank" class="w3-hover-text-green">Home page </a></p>
+</footer>
+<div class="w3-hide-small" style="margin-bottom:32px"> </div>
+
+</body>
+</html>
